@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('nare') {
             steps {
                 sh 'echo "Building..."'
             }
         }
-        stage('Test') {
+        stage('new') {
             steps {
                 sh 'echo "Testing..."'
             }
         }
-        stage('Deploy') {
+        stage('job') {
             steps {
                 sh 'echo "Deploying..."'
             }
