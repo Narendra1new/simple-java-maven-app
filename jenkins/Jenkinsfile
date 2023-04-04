@@ -6,12 +6,12 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
-        stage('Build') {
+        stage('complete') {
             steps {
                 echo 'hii'
             }
         }
-        stage('Build') {
+        stage('okay') {
             steps {
                 echo 'Im NAre'
             }
